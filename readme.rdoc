@@ -10,8 +10,8 @@ See http://tools.ietf.org/html/rfc4648#section-6
 
     gem in rfc-base32
 
-==Usage
+==Use
 
     require 'rfc-base32'
-	RFC.encode32 'hello world' #=> 'NBSWY3DPEB3W64TMMQAAAAAA======'
-	RFC.decode32 'NBSWY3DPEB3W64TMMQAAAAAA======' #=> 'hello world'
+    RFC.encode32 'hello world' #=> 'NBSWY3DPEB3W64TMMQAAAAAA======'
+    RFC.decode32 'NBSWY3DPEB3W64TMMQAAAAAA======' #=> 'hello world'
