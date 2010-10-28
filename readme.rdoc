@@ -1,4 +1,4 @@
-RFC4648 Base32 Encode / Decode
+==RFC4648 Base32 Encode / Decode
 
 For Ruby 1.9.x.
 
@@ -6,7 +6,11 @@ Not the Crockford one.
 
 See http://tools.ietf.org/html/rfc4648#section-6
 
+==Install
+
     gem in rfc-base32
+
+==Usage
 
     require 'rfc-base32'
 	RFC.encode32 'hello world' #=> 'NBSWY3DPEB3W64TMMQAAAAAA======'
